@@ -264,28 +264,37 @@ h5{
 .tom-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 80%;
     margin: 0px auto;
    
 }
 .tom-container-img .power{
    width: 400px;
+   padding: 50px 0px 40px 60px;
     
 }
 .tom-container-img .power1{
    position: relative;
    width: 200px;
-   margin-top: -140px;
-   margin-left: -100px;
+   margin-top: -250px;
+   margin-left: -460px;
 }
 .tom-container-text{
-   border: 1px solid tomato;
-     
-     
+   /* border: 1px solid tomato; */
+   text-align: center;
+   
 }
-
+.tom-container-text p{
+    padding-right: -150px;
+}
 .tom-container-img{
-    border: 1px solid rgba(19, 219, 12, 0.788);
+    /* width: 60%; */
+    margin-right: 150px;
+    /* border: 1px solid rgba(19, 219, 12, 0.788); */
+}
+.text-color{
+    color: #F948B2;
 }
        
 
@@ -368,6 +377,9 @@ footer{
 .foot-icon i{
     width: 50px;
     margin: 5px;
+}
+.fa-brands{
+    font-size: 30px;
 }
 .hide{
     display: none;
@@ -462,16 +474,20 @@ footer{
         /* width: 200px; */
     }
     .tom-container-img{
-        align-items: center;
+        /* align-items: center; */
         padding-left: 30px;
     }
     .tom-container-img .power{
-        width: 260px;
+        width: 300px;
+        padding-right: 370px;
     }
     .tom-container-img .power1{
         width: 120px;
         margin-bottom: -20px;
-        
+    }
+    .tom-container-text h1{
+        font-size: 25px;
+        padding-bottom: 20px;
     }
 
 
