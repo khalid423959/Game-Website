@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,900;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Work Sans', sans-serif; 
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    align-items: center;
+    padding: 10px 0px;
+}
+.game{
+    color: #FF42A5;
+}
+.nav-container img{
+    width: 45px;
+    height: 25px;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 80px;
+}
+
+.nav-right a{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 10px;
+    
+}
+.nav-right{
+    display: flex;
+   justify-content: space-between;
+   margin-right: 50px;
+}
+.Follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10); 
+    padding: 10px;   
+}
+/* banner */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+}
+.play{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-left: 80px;
+
+}
+.goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 900;
+    
+}
+p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 35px;
+    
+}
+.p1{
+    margin-top: 10px;
+    margin-right: 130px;
+}
+.p2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 170px;
+}
+.p3{
+    margin-right: 40px;
+}
+.banner-btn{
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-text{
+    background-image: url("images/Group\ 14.png");
+    width: 50%;
+    text-align: center;
+}
+.sign{
+    display: inline-flex;
+    padding: 11px 20px;
+    align-items: flex-start;
+    border-radius: 28px;
+    background:  #FF42A5;
+    border: none;
+    color: white;
+}
+.rogue{
+    display: inline-flex;
+    padding: 11px 20px;
+    align-items: flex-start;
+    border: none;
+    border-radius: 28px;
+    background: #4EC5F7;
+    color: white;
+}
+.banner-img img{
+        width: 450px;
+        height: 430px;
+        margin-top: 40px;
+        margin-left: 60px;
+}
+/* main */
+.main-container{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+.main-text{
+    text-align: center;
+    margin-top: 60px;
+}
+.main-container img {
+    width: 200px;
+    
+    
+}
+h5{
+    font-size: 12px;
+    margin-bottom: 60px;
+    color: #534C64;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.online{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+}
+.p5{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px ;
+    margin-bottom: 30px;
+}
+
+/* instant */
+.instant-container{
+    display: flex;
+   
+}
+.instant-text{
+    
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.instant-text p{
+    font-size: 13px;
+}
+.instant-text h1{
+    font-size: 30px;
+}
+.instant-img .hours{
+    width: 400px;
+    margin: 120px;
+    
+}
+.instant-img .mew{
+    width: 180px;
+    margin-left: -600px;
+    margin-bottom: 60px;
+}
+ 
+.ins-text-h{
+    color: #0B0223;
+    font-size: 35px;
+    margin-left: 80px;
+}
+.ins-text-h1{
+    font-size: 35px;
+    margin-left: 140px ;
+}
+.ins-text-h4{
+    margin-left: 100px;
+}
+.ins-text-h2{
+    color: #F948B2;
+}
+
+/* outer */
+.other-container{
+    display: grid;
+   
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content:space-around;
+    grid-template-columns:repeat(5, 1fr)
+}
+.icon{
+    display: flex;
+    grid-auto-columns: 40px;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 10px; */
+    
+} 
+.icon1{
+   
+  
+}
+.icon img{
+    width: 30px;
+    padding-left: 40px;
+}
+.other-container .icon:hover{
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    border: 1px solid rgb(238, 152, 152);
+    cursor: pointer;
+    
+}
+footer{
+    background-color: #0B0223;
+}
+.foot h2{
+    color: white;
+}
+.foot{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.footer img{
+    width: 50px;
+}
+.bio{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    color: white;
+}
+.bio p{
+    color: white;
+}
+.bio2{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+}
+.foot-p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    
+    .banner-img img{
+        width: 250px;
+        height: 250px;
+        /* margin-left: 35px; */
+    }
+    
+    .nav-left{
+        margin-right: 40px;
+    }
+    .nav-right {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    .nav-right a{
+        margin-right: 60px;
+        margin-top: 20px;
+
+    }
+    .banner-text .play{
+        font-size: 20px;
+         margin-right: 70px;
+    }
+    .banner-text .goat{
+        font-size: 30px;
+    }
+    .banner-btn{
+        margin-bottom: 30px;
+    }
+
+
+
+
+    .main-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-text h1{
+        font-size: 20px;
+    }
+    .online{
+        font-size: 20px;
+    }
+    .p5{
+        font-size: 8px;
+    }
+    .main-container h5{
+        font-size: 10px;
+        text-align: center;
+    }
+    .instant-container{
+        flex-direction: column;
+    }
+
+    .ins-text-h{
+        font-size: 20px;
+    }
+    .ins-text-h1{
+        font-size: px;
+    }
+    .instant-img .hours{
+        width: 220px;
+    }
+    .instant-img .mew{
+        
+    }
+    
+
+
+
+}
+ 
+    
