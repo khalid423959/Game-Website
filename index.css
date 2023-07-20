@@ -18,6 +18,9 @@ body{
 .game{
     color: #FF42A5;
 }
+.fa-brands{
+    margin: 0px 5px;
+}
 .nav-container img{
     width: 45px;
     height: 25px;
@@ -139,6 +142,12 @@ p{
     justify-content:center;
     gap: 20px;
 }
+
+.main-container:hover{
+    cursor: pointer;
+
+}
+
 .main-text{
     text-align: center;
     margin-top: 60px;
@@ -202,25 +211,22 @@ h5{
     margin-left: -600px;
     margin-bottom: 60px;
 }
- 
-.ins-text-h{
-    color: #0B0223;
-    font-size: 35px;
-    margin-left: 80px;
-}
 .ins-text-h1{
-    font-size: 35px;
-    margin-left: 140px ;
-}
-.ins-text-h4{
-    margin-left: 100px;
+    display: grid;
+    justify-content: end;
 }
 .ins-text-h2{
     color: #F948B2;
+    display: grid;
+    justify-content: right;
+}
+.ins-text-h4{
+    /* display: grid; */
+    /* justify-content: right; */
 }
 
 /* outer */
-.other-container{
+/* .other-container{
     display: grid;
    
     margin-left: 100px;
@@ -231,13 +237,11 @@ h5{
 .icon{
     display: flex;
     grid-auto-columns: 40px;
-    /* justify-content: center; */
     align-items: center;
-    /* gap: 10px; */
     
 } 
 .icon1{
-   
+   background-color: #4EC5F7;
   
 }
 .icon img{
@@ -248,9 +252,9 @@ h5{
     background-color: #f5f5f5;
     border-radius: 20px;
     border: 1px solid rgb(238, 152, 152);
-    cursor: pointer;
+    cursor: pointer; */
     
-}
+
 footer{
     background-color: #0B0223;
 }
@@ -284,7 +288,9 @@ footer{
     padding-top: 20px;
     padding-bottom: 100px;
 }
-
+.hide{
+    display: none;
+}
 
 
 
@@ -362,21 +368,19 @@ footer{
     }
     .instant-container{
         flex-direction: column;
-    }
-
-    .ins-text-h{
-        font-size: 20px;
-    }
-    .ins-text-h1{
-        font-size: px;
-    }
-    .instant-img .hours{
-        width: 220px;
-    }
-    .instant-img .mew{
         
     }
-    
+
+    .instant-text{
+        width: 100%;
+    }
+    }
+    /* outer */
+     
+    .other-container{
+        
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 
 
